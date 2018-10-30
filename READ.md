@@ -1,2 +1,0 @@
-# SISTEMAS-MICROPROCESADO
-ejercicios arduino 
