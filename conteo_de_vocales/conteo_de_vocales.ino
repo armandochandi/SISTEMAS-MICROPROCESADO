@@ -33,7 +33,7 @@ c++; // se almacena en la variable c y el contador aumenta
 }
   } 
 Serial.println("vocales: ");//se imprime el texto vocales en la terminal
-Serial.println(c-1); //se imprime el numero de vocales que hay en la palabra 
+Serial.println(c); //se imprime el numero de vocales que hay en la palabra 
 c=0;//el contador de vocales vuelve a 0 para que se pueda analizar otra palabra 
 }}
  
