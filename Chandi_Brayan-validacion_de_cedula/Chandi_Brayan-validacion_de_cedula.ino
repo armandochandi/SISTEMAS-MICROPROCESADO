@@ -38,6 +38,7 @@ delay(1000);// delay para poder utilizar el dato-numero de cedula
         cedula=cedula-(h*100);
         i=cedula/10;// obtencion del noveno digito de la cedula de izquierda a derecha
         cedula=cedula-(i*10);
+        z='-'; //guion 
         j=cedula/1; // obtencion del decimo digito de la cedula de izquierda a derecha
         cedula=cedula-(j*1);
        if(cedula>2400000000){ // si los 2 primeros digotos de la cedula son mayores a 24 la cedula es invalida 
