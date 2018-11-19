@@ -14,7 +14,7 @@ int pulsadorB=8; //pin declarado para el pulsador B
 int pulsadorC=9; //pin declarado para el pulsador C
 int pulsadorD=10; //pin declarado para el pulsador D
 int valor=LOW; //  valor con el que inicia la interrupcion, el led rojo siempre va estar en high se apagara solo cuando 
-int clave[]={0,0,0,0,0,0}; //vector de valores enteros correspondientes a la clave determinada como valida --> A=0,B=1,C=2,D=3
+int clave[]={0,0,1,2,3,2}; //vector de valores enteros correspondientes a la clave determinada como valida --> A=0,B=1,C=2,D=3 (clave=AABCDC)
 int sec[]={100,100,100,100,100,100}; //tiempo desigando para la ejecucion de cada digito de la clave 
 int estado = 0; //varibale estado en la que se almacenan los datos ingresados mediante la secuencia de pulsadores
 void setup() {
