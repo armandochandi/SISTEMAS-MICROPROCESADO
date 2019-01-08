@@ -13,7 +13,7 @@ int ih=7; //pin designado para pulsador, igualar la hora
 int im=6; //pin desigando para pulsador, igualar minutos
 void setup() {
   Serial.begin(9600); //inicializacion de la comunicacion serial
-  MsTimer2::set(100,tiempo); //inicializacion del timer 
+  MsTimer2::set(1000,tiempo); //inicializacion del timer 
   MsTimer2::start(); //metodo start permite el arranque del timer 
   lcd.begin(16,2); // lcd de 16x2
   lcd.setCursor(2, 0); // ubicacion del cursor dentrol de la lcd-columna,fila
